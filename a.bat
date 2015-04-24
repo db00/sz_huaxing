@@ -1,0 +1,1 @@
+adt -package -target ipa-test-interpreter   -storetype pkcs12 -keystore "cert/iphone_dev.p12" -storepass 1234 -provisioning-profile cert/JNY.mobileprovision "dist\smain-test-interpreter.ipa" "application.xml" -C bin . -C "icons/ios" . 
